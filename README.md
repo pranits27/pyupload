@@ -1,15 +1,15 @@
 # pyupload
 Uploading file on gdrive using Python
 
-First of all you need to enable Google drive API:
+## First of all you need to enable Google drive API:
 
 1. Log into google developer console at https://console.cloud.google.com/apis/dashboard.
 2. Click select project at the right side of “Google Cloud Platform” of upper left of window.
 3. If you cannot see the project, please try to access to https://console.cloud.google.com/cloud-resource-manager.
 
-You can also create new project at there. When you create a new project there, please click the left of “Google Cloud Platform”. You can see it like 3 horizontal lines.
+#### You can also create new project at there. When you create a new project there, please click the left of “Google Cloud Platform”. You can see it like 3 horizontal lines.
 
-By this, a side bar is opened. At there, select “API & Services” -> “Library”. After this, follow the below steps:
+## By this, a side bar is opened. At there, select “API & Services” -> “Library”. After this, follow the below steps:
 
 1. Click “NEW PROJECT” and input the “Project Name”.
 2. Click “CREATE” and open the created project.
@@ -18,7 +18,7 @@ By this, a side bar is opened. At there, select “API & Services” -> “Libra
 5. Input “Drive API” in “Search for APIs & Services”.
 6. Click “Google Drive API” and click “ENABLE”.
 
-Generating 0Auth2.0 credentials:
+## Generating 0Auth2.0 credentials:
 
 1. Follow Enable Drive API section.
 2. Open google console.
@@ -28,7 +28,7 @@ Generating 0Auth2.0 credentials:
 6. Provide name for the new credentials. ( anything ). This would provide a new Client ID and Client Secret.
 7. Download your credentials.json by clicking on the download button.
 
-You need Access token which can be generated from https://developers.google.com/oauthplayground/
+## You need Access token which can be generated from https://developers.google.com/oauthplayground/
 
 1. Scroll down to Drive API v3. Click on it.
 
