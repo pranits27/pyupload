@@ -4,8 +4,10 @@ from datetime import datetime
 
 headers = {"Authorization": "Bearer ##Access Token##"} ## Put access token after the 'Bearer'
 now = datetime.now()
+currenttime = now.strftime("%Y-%m-%d-%H:%M")
+
 para = {
-    "name": "##Name of file##" +str(now), ## Name of the file
+    "name": "test-"+str(currenttime)+".zip", ## Name of the file
     "parents": ["##folder id##"] ## Add folder id
 }
 
