@@ -1,9 +1,11 @@
 import requests
 import json
+from datetime import datetime
 
 headers = {"Authorization": "Bearer ##Access Token##"} ## Put access token after the 'Bearer'
+now = datetime.now()
 para = {
-    "name": "##Name of file##", ## Name of the file
+    "name": "##Name of file##" +str(now), ## Name of the file
     "parents": ["##folder id##"] ## Add folder id
 }
 
